@@ -18,5 +18,6 @@ describe User do
   it 'fails when creating a user whos email already exisits' do
     expect(User.create(email: user.email, username: 'jimmy', password: "654321", password_confirmation: "654321", name: "jim").errors.full_messages).to include "Email is already taken"
   end
-
+  #write another test for username
+  #write test on user and peep to check associations
 end
