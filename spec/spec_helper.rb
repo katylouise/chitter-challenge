@@ -6,7 +6,6 @@ require 'factory_girl'
 require 'orderly'
 require 'rspec'
 require 'rubygems'
-require 'simplecov'
 require 'timecop'
 
 ENV['RACK_ENV'] = 'test'
