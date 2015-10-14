@@ -2,50 +2,23 @@
 [![Code Climate](https://codeclimate.com/github/katylouise/chitter-challenge/badges/gpa.svg)](https://codeclimate.com/github/katylouise/chitter-challenge)
 [![Test Coverage](https://codeclimate.com/github/katylouise/chitter-challenge/badges/coverage.svg)](https://codeclimate.com/github/katylouise/chitter-challenge/coverage)
 
-# Chitter Challenge
+# Chitter
 
-Features:
--------
+A Twitter-style app built using Ruby, Sinatra and DataMapper ORM. Tested with RSpec and Capybara.
 
-```sh
-As a Maker
-So that I can post messages on Chitter as me
-I want to sign up for Chitter
+## Getting Started
 
-As a Maker
-So that I can post messages on Chitter as me
-I want to log in to Chitter
-
-As a Maker
-So that I can avoid others posting messages on Chitter as me
-I want to log out of Chitter
-
-As a maker
-So that I can let people know what I am doing
-I want to post a message (peep) to chitter
-
-As a maker
-So that I can see what others are saying
-I want to see all peeps in reverse chronological order
-
-As a maker
-So that I can better appreciate the context of a peep
-I want to see the time at which it was made
 ```
+git clone https://github.com/katylouise/chitter-challenge.git
+cd chitter-challenge
+bundle install
+rackup
+```
+Go to localhost:9292
 
-Technologies Used:
------------------
-- Sinatra
-- Postgres Database
-- DataMapper ORM
-- Ruby
+## Running Tests
 
-
-Testing
--------
-Tests are run using RSpec, Capybara, Factory Girl and Database Cleaner
-
-
-Author
--------
-Created on 16/08/15 by Rebecca Appleyard
+To run rspec:
+```
+rspec
+```
