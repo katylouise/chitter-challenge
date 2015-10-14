@@ -1,7 +1,8 @@
 ![Travis CI Build Working](https://travis-ci.org/katylouise/chitter-challenge.svg?branch=master)
+[![Code Climate](https://codeclimate.com/github/katylouise/chitter-challenge/badges/gpa.svg)](https://codeclimate.com/github/katylouise/chitter-challenge)
+[![Test Coverage](https://codeclimate.com/github/katylouise/chitter-challenge/badges/coverage.svg)](https://codeclimate.com/github/katylouise/chitter-challenge/coverage)
 
-Chitter Challenge
-=================
+# Chitter Challenge
 
 Features:
 -------
