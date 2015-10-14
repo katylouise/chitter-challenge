@@ -2,10 +2,13 @@ require 'sinatra/base'
 require 'sinatra/flash'
 require 'sinatra/partial'
 require './data_mapper_setup'
-
 require './app/helpers/app_helpers'
-
-Dir["./app/controllers/*.rb"].each {|file| require file }
+require './app/controllers/base_controller.rb'
+require './app/controllers/home_controller.rb'
+require './app/controllers/peep_controller.rb'
+require './app/controllers/session_controller.rb'
+require './app/controllers/user_controller.rb'
+# Dir["./app/controllers/*.rb"].each {|file| require file }
 
 
 include TheApp::Models
