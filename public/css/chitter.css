@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #5DD39E;
   font-family: 'Pacifico', cursive;
   margin: 5px;
 }
@@ -83,11 +83,12 @@ a:hover {
 }
 
 .peep {
+  background-color: #ffffff;
   text-align: center;
   border: 1px solid #f3f3f3;
   margin: auto;
-  margin: 10px;
-  border-radius: 3px;
+  margin: 20px;
+  border-radius: 8px;
   padding: 10px 5px 0px 0px;
 }
 
@@ -100,9 +101,9 @@ a:hover {
 .button {
   font-family: 'Pacifico', cursive;
   border-radius: 3px;
-  border: 1px solid #838399;
+  border: 1px solid #f2f2f2;
   font-size: 10pt;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 }
 
 #peep_button {
@@ -111,12 +112,12 @@ a:hover {
 
 .big_button {
   font-size: 40pt;
-  background-color: #f3f3f3;
-  padding: 10px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border: 2px solid #f2f2f2;
   border-radius: 5px;
   display: inline-block;
   margin-right: 30px;
-  padding-right: 15px;
   text-align: center;
 }
 
