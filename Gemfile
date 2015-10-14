@@ -11,6 +11,7 @@ gem 'sinatra-partial'
 
 group :test do
   gem 'capybara'
+  gem 'codeclimate-test-reporter', require: nil
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'orderly'

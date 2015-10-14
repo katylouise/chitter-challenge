@@ -8,8 +8,6 @@ require './app/controllers/home_controller.rb'
 require './app/controllers/peep_controller.rb'
 require './app/controllers/session_controller.rb'
 require './app/controllers/user_controller.rb'
-# Dir["./app/controllers/*.rb"].each {|file| require file }
-
 
 include TheApp::Models
 
