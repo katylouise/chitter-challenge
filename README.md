@@ -22,3 +22,7 @@ To run rspec:
 ```
 rspec
 ```
+
+## Learning
+* One of the main challenges with this project was creating a Sinatra app in the modular style.  I struggled with this during the weekly project, but felt much more confident with structuring my app after making Chitter.
+* This project also taught me about relational databases and how to use an ORM such as DataMapper.
