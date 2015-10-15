@@ -11,7 +11,6 @@ gem 'sinatra-partial'
 
 group :test do
   gem 'capybara'
-  gem 'codeclimate-test-reporter', require: nil
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'orderly'
@@ -20,4 +19,6 @@ group :test do
   gem 'rubocop-rspec'
   gem 'timecop'
 end
+
+gem 'codeclimate-test-reporter', group: :test, require: nil
 
